@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-lkxmc$=n8nmeq==tkde97fp$f-(t&cwxp7hzha^cbe*nhl6+54
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'sell-n-buy.onrender.com',
+    'localhost'
+]
 
 
 # Application definition
